@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #0f1111;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imgs{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    margin-top: 1rem;
+}
+#rock{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("rock.jpeg");
+    background-size: cover;
+    
+    
+}
+#paper{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("paper.jpeg");
+    background-size: cover;
+}
+#scissors{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url("scissor.jpeg");
+    background-size: cover;
+}
+.how:hover{
+    border: 3px solid #0f1111;
+}
+.scoreboard{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+#userscore,#compscore{
+    font-size: 4rem;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+#msnger{
+    color: aliceblue;
+    background-color: #0f1111;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+    padding: 1rem;
+    
+}
